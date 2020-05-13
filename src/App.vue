@@ -56,16 +56,5 @@ export default {
       this.selected = null
     }
   },
-
-  computed: {
-    embedAPI: function() {
-      if (this.selected == null) return null
-      let lat = this.selected.location.latitude == null ? 0 : this.selected.location.latitude
-      let long = this.selected.location.longitude == null ? 0 : this.selected.location.longitude
-      return "https://www.google.com/maps/embed/v1/place?" +
-      "key=AIzaSyBtAFvbn0JT674ZL9kiKNA3YfmCMcezLsA&q=" + lat + "," + long +
-      "&zoom=4"
-    }
-  },
 };
 </script>
