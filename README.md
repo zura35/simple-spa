@@ -27,6 +27,11 @@ npm run serve
 npm run build
 ```
 
+### Runs unit test on components
+```
+npm run test:unit
+```
+
 ### Lints and fixes files
 ```
 npm run lint
