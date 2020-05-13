@@ -5,6 +5,18 @@
 npm install
 ```
 
+To ensure the Google Map API works well, please replace here with your own API Key.
+
+#### App.vue
+```
+data: () => ({
+  apiKey: "YOUR API KEY",
+  response: null,
+  selected: null,
+  dialog: false,
+}),
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
